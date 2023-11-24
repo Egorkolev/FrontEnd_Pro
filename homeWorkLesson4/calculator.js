@@ -1,19 +1,19 @@
-const operator = prompt("Enter one of the operator - (+ , - , * , /)");
+const operator = prompt("Enter one of the operator - (add , sub , mult , div)");
 const firstNumb = prompt("Enter the first number");
 const secondNumb = prompt("Enter the second number");
 
 switch (operator) {
-  case "+":
+  case "add":
     alert(`${firstNumb} + ${secondNumb} = ${+firstNumb + +secondNumb}`);
     break;
-  case "-":
+  case "sub":
     alert(`${firstNumb} - ${secondNumb} = ${+firstNumb - +secondNumb}`);
     break;
-  case "*":
+  case "mult":
     alert(`${firstNumb} * ${secondNumb} = ${+firstNumb * +secondNumb}`);
     break;
-  case "/":
-    alert(`${firstNumb} ? ${secondNumb} = ${+firstNumb / +secondNumb}`);
+  case "div":
+    alert(`${firstNumb} / ${secondNumb} = ${+firstNumb / +secondNumb}`);
     break;
   default:
     alert(`you enter wrong numbers ore operator - (${firstNumb} ${operator} ${secondNumb})`)
