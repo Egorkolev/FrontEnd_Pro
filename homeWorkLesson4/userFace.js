@@ -1,6 +1,6 @@
-const year = prompt("enter your Year of Bearth - (yyyy)");
-const city = prompt("enter the city where are you living now");
-const sport = prompt("enter your favorite tipe of sport");
+// const year = prompt("enter your Year of Bearth - (yyyy)");
+// const city = prompt("enter the city where are you living now");
+// const sport = prompt("enter your favorite tipe of sport");
 
 let age;
 let livingCity;

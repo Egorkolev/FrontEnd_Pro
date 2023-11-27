@@ -1,6 +1,6 @@
-const operator = prompt("Enter one of the operator - (add , sub , mult , div)");
-const firstNumb = prompt("Enter the first number");
-const secondNumb = prompt("Enter the second number");
+// const operator = prompt("Enter one of the operator - (add , sub , mult , div)");
+// const firstNumb = prompt("Enter the first number");
+// const secondNumb = prompt("Enter the second number");
 
 switch (operator) {
   case "add":
