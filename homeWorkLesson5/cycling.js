@@ -134,8 +134,8 @@
 // 12
 let multiplyTable = [];
 const multiplySeven = () => {
-  for (let i = 2; i <= 10; i++) {
-    for(let y = 2; y <=10; y++) {
+  for (let i = 1; i <= 10; i++) {
+    for(let y = 1; y <=10; y++) {
         multiplyTable.push(`${i} * ${y} = ${i * y}`);
     }
   }
