@@ -132,13 +132,13 @@
 // console.log("summDevidersNum", evenSummNum);
 
 // 12
-let multiplyTable = [];
-const multiplySeven = () => {
-  for (let i = 1; i <= 10; i++) {
-    for(let y = 1; y <=10; y++) {
-        multiplyTable.push(`${i} * ${y} = ${i * y}`);
-    }
-  }
-};
-multiplySeven();
-console.log(multiplyTable.join("\n"));
+// let multiplyTable = [];
+// const multiplySeven = () => {
+//   for (let i = 1; i <= 10; i++) {
+//     for(let y = 1; y <=10; y++) {
+//         multiplyTable.push(`${i} * ${y} = ${i * y}`);
+//     }
+//   }
+// };
+// multiplySeven();
+// console.log(multiplyTable.join("\n"));
