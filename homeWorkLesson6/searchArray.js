@@ -74,8 +74,15 @@ for (let i = 0; i < positiveArr.length; i++) {
 console.log("totalMultiply", totalMultiply);
 
 // 10
+let maxNumb = arr[0];
 for (let i = 0; i < arr.length; i++) {
-  if (arr[i] !== maxNum) {
+  if (arr[i] > maxNum) {
+    maxNum = arr[i];
+  }
+}
+
+for (let i = 0; i < arr.length; i++) {
+  if (arr[i] !== maxNumb) {
     arr[i] === 0;
   }
 }
