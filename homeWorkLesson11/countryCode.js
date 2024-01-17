@@ -1,11 +1,12 @@
 var codes = {
-  6: "Польща",
+  $6: "Польща",
 
-  38: "Україна",
+  $38: "Україна",
 
-  1: "США",
+  $1: "США",
 };
 
-for(let i = 0; i < codes.lenght; i++) {
-    console.log(`${codes[i]}`);
-}
+const objArr = Object.entries(codes);
+objArr.forEach((value, key) => {
+    console.log(`${key}: ${value}`);
+})
