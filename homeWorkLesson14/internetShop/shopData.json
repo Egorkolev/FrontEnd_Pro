@@ -1,0 +1,116 @@
+{
+  "shopData": [
+    {
+      "id": 1,
+      "img": "woshing1",
+      "section": ["appliances"],
+      "price": 200,
+      "name": "LG-3000",
+      "description": "LG woshing Machine"
+    },
+    {
+      "id": 2,
+      "img": "woshing2",
+      "section": ["appliances"],
+      "price": 230,
+      "name": "LG-F321",
+      "description": "LG woshing Machine"
+    },
+    {
+      "id": 3,
+      "img": "woshing3",
+      "section": ["appliances"],
+      "price": 250,
+      "name": "Samsung Max",
+      "description": "Samsung woshing Machine"
+    },
+    {
+      "id": 4,
+      "img": "frige1",
+      "section": ["appliances"],
+      "price": 300,
+      "name": "Samsung Go",
+      "description": "Samsung Frige"
+    },
+    {
+      "id": 5,
+      "img": "frige2",
+      "section": ["appliances"],
+      "price": 430,
+      "name": "Hansa 32",
+      "description": "Hansa Frige"
+    },
+    {
+      "id": 6,
+      "img": "frige3",
+      "section": ["appliances"],
+      "price": 280,
+      "name": "Hansa i-4345",
+      "description": "Hansa Frige"
+    },
+    {
+      "id": 7,
+      "img": "phone1",
+      "section": ["electonics", "phones"],
+      "price": 530,
+      "name": "Iphone 15Pro",
+      "description": "Iphone phone"
+    },
+    {
+      "id": 8,
+      "img": "phone2",
+      "section": ["electonics", "phones"],
+      "price": 780,
+      "name": "Iphone 14",
+      "description": "Iphone phone"
+    },
+    {
+      "id": 9,
+      "img": "phone3",
+      "section": ["electonics", "phones"],
+      "price": 480,
+      "name": "Samsung i5",
+      "description": "Samsung phone"
+    },
+    {
+      "id": 10,
+      "img": "phone4",
+      "section": ["electonics", "phones"],
+      "price": 890,
+      "name": "Samsung i5",
+      "description": "Samsung phone"
+    },
+    {
+      "id": 11,
+      "img": "laptop1",
+      "section": ["electonics", "computers"],
+      "price": 450,
+      "name": "Samsung i-4345",
+      "description": "Samsung laptop"
+    },
+    {
+      "id": 12,
+      "img": "laptop2",
+      "section": ["electonics", "computers"],
+      "price": 750,
+      "name": "Samsung i-4345",
+      "description": "Samsung laptop"
+    },
+    {
+      "id": 13,
+      "img": "laptop3",
+      "section": ["electonics", "computers"],
+      "price": 120,
+      "name": "LG i-4345",
+      "description": "LG laptop"
+    },
+    {
+      "id": 14,
+      "img": "laptop4",
+      "section": ["electonics", "computers"],
+      "price": 565,
+      "name": "LG i-4345",
+      "description": "LG laptop"
+    }
+  ]
+}
