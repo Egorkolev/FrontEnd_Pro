@@ -1,48 +1,67 @@
 .mainContainer {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    padding: 30px 15px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 30px 15px;
 }
 .myNavBar {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 .mainContent {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
-    border-top: 1px solid lightgray;
-    margin-top: 50px;
-    padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  border-top: 1px solid lightgray;
+  margin-top: 50px;
+  padding-top: 20px;
 }
 .card-img-top {
-    max-width: 150px !important;
-    height: 200px;
-    width: fit-content !important;
-    padding: 20px;
-    margin: 0 auto;
+  max-width: 150px !important;
+  height: 200px;
+  width: fit-content !important;
+  padding: 20px;
+  margin: 0 auto;
 }
 .basketItem {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    border: 1px solid;
-    border-radius: 5px;
-    padding: 5px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 5px;
 }
 
 .alert {
-    position: fixed !important;
-    top: 30px!important;
-    margin: 0 auto;
-    width: fit-content;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: fixed !important;
+  top: 30px !important;
+  margin: 0 auto;
+  width: fit-content;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .hide {
-    display: none;
+  display: none;
+}
+.orderBox {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 10px;
+}
+.date {
+  color: green;
+  white-space: nowrap;
+}
+.hart {
+  width: 35px;
+  padding: 5px;
+  position: absolute;
+  right: 0;
+}
+.orderBtn {
+  position: absolute;
+  top: 30px;
 }
