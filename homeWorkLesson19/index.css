@@ -1,0 +1,23 @@
+img {
+    width: 50px;
+    height: 50px;
+}
+ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+.container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 20px;
+}
+.hide{
+    display: none;
+}
+.show {
+    display: block !important;
+}
