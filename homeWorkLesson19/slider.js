@@ -10,7 +10,7 @@ prevBtn.addEventListener("click", () => {
   list[num].classList.add("show");
   if (num <= 0) {
     prevBtn.disabled = true;
-  } else if (num <= 5) {
+  } else if (num <= list.length -1) {
     nextBtn.disabled = false;
   }
   console.log(num);
@@ -19,7 +19,7 @@ nextBtn.addEventListener("click", () => {
   list[num].classList.remove("show");
   num = num += 1;
   list[num].classList.add("show");
-  if (num >= 4) {
+  if (num >= list.length -1) {
     nextBtn.disabled = true;
   } else if (num >= 0) {
     prevBtn.disabled = false;
